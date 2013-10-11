@@ -1,0 +1,1264 @@
+TWebComix
+v7
+r0
+t310363356.122976
+cCheck dependencies
+cProcessInfoPlistFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist" WebComiX-Info.plist
+cCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib"
+cCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib"
+cCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib"
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/star.png star.png
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/ArrowBack.png ArrowBack.png
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/ArrowForward.png ArrowForward.png
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon2.png Icon2.png
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon5.png Icon5.png
+cCopyPlistFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist" Entitlements.plist
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/titlepage.png titlepage.png
+cCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon.png Icon.png
+cProcessPCH /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch.gch WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd" "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld"
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o "/Users/chris/Documents/X-Code Projects/WebComiX/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX" normal i386
+cGenerateDSYMFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX"
+cTouch "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004CCF7AC30000000000000110
+t1288665795
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BD2002300000000001D2E00
+t1272053795
+s1912320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BD1FFED000000000000046B
+t1272053741
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/ArrowBack.png
+c000000004BA3CC000000000000000244
+t1269025792
+s580
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/ArrowForward.png
+c000000004BA3CC000000000000000241
+t1269025792
+s577
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/Comic.h
+c000000004B9D521F000000000000015D
+t1268601375
+s349
+i<CoreData/CoreData.h>
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.h
+c000000004BAAB300000000000000049D
+t1269478144
+s1181
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"Comic.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m
+c000000004BAAB34D0000000000001E58
+t1269478221
+s7768
+i"DetailViewController.h"
+i"RootViewController.h"
+i"addComic.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.h
+c000000004BAAB33B0000000000000463
+t1269478203
+s1123
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"WebComiXAppDelegate.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m
+c000000004BAAB33500000000000038C7
+t1269478197
+s14535
+i"RootViewController.h"
+i"DetailViewController.h"
+i"xmlReader.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.h
+c000000004BAAB31F00000000000004D3
+t1269478175
+s1235
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"addComic.h"
+i"comicPlaceholder.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m
+c000000004BAAB31800000000000014F2
+t1269478168
+s5362
+i"WebComiXAppDelegate.h"
+i"RootViewController.h"
+i"DetailViewController.h"
+i"comicPlaceholder.h"
+i"xmlReader.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.h
+c000000004BAAB2F30000000000000487
+t1269478131
+s1159
+i<UIKit/UIKit.h>
+i"Comic.h"
+i"DetailViewController.h"
+i"WebComiXAppDelegate.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m
+c000000004BAD891C00000000000010FD
+t1269664028
+s4349
+i"addComic.h"
+i"Comic.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib
+c000000004BA2C0F3000000000000820A
+t1268957427
+s33290
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.h
+c000000004BAAB2D800000000000001DE
+t1269478104
+s478
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m
+c000000004BAAB2DE0000000000000150
+t1269478110
+s336
+i"comicPlaceholder.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.h
+c000000004BAAB2E7000000000000018A
+t1269478119
+s394
+i"Comic.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m
+c000000004BAAB2D1000000000000072B
+t1269478097
+s1835
+i"xmlReader.h"
+i"RootViewController.h"
+i"comicPlaceholder.h"
+i"WebComiXAppDelegate.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib
+c000000004C96ECCF0000000000009A99
+t1284959439
+s39577
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Entitlements.plist
+c000000004BA71EB000000000000000E1
+t1269243568
+s225
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Icon.png
+c000000004BA98FE20000000000001136
+t1269403618
+s4406
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Icon2.png
+c000000004BA3F503000000000000B6DA
+t1269036291
+s46810
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/Icon5.png
+c000000004BA42F8F0000000000007CC9
+t1269051279
+s31945
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib
+c000000004B9EA2480000000000008874
+t1268687432
+s34932
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld
+c000000004B9FFB1A00000000000000EE
+t1268775706
+s238
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.h
+c000000004B9DCC37000000000000015D
+t1268632631
+s349
+i<CoreData/CoreData.h>
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m
+c000000004B9DCC3700000000000000DC
+t1268632631
+s220
+i"Comic.h"
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch
+c000000004B9D48480000000000000142
+t1268598856
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app
+t1288670556
+s578
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM
+t1288670555
+s102
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/ArrowBack.png
+t1288670539
+s580
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/ArrowForward.png
+t1288670539
+s577
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/DetailView.nib
+t1284959444
+s2323
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist
+t1269403669
+s62
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon.png
+t1288670539
+s4406
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon2.png
+t1288670539
+s46810
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon5.png
+t1288670539
+s31945
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist
+t1288670538
+s835
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/MainWindow.nib
+t1282522267
+s1948
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/PkgInfo
+t1288670538
+s8
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+t1288670555
+s70448
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd
+t1269403670
+s136
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/addComic.nib
+t1282522267
+s3242
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/star.png
+t1288670539
+s2277
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/titlepage.png
+t1288670538
+s51543
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o
+t1288670553
+s5304
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o
+t1288670553
+s73120
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o
+t1288670553
+s85888
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiX.LinkFileList
+c000000004C71BC9B00000000000004A3
+t1282522267
+s1187
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o
+t1288670553
+s66004
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o
+t1288670553
+s60888
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o
+t1288670553
+s10700
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o
+t1288670553
+s6308
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o
+t1288670553
+s51760
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/Comic.plist
+t1269472972
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/DetailViewController.plist
+t1269473173
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/RootViewController.plist
+t1269472972
+s9394
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/WebComiXAppDelegate.plist
+t1269472972
+s8943
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/addComic.plist
+t1269472972
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/comicPlaceholder.plist
+t1269472972
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/main.plist
+t1269472972
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/xmlReader.plist
+t1269472972
+s275
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/main.m
+c000000004B9D4848000000000000015B
+t1268598856
+s347
+i<UIKit/UIKit.h>
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/star.png
+c000000004BA2664D00000000000008E5
+t1268934221
+s2277
+
+N/Users/chris/Documents/X-Code Projects/WebComiX/titlepage.png
+c000000004BA7CC82000000000000C957
+t1269288066
+s51543
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/ArrowBack.png
+c000000004BA3CC000000000000000244
+t1269025792
+s580
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/ArrowForward.png
+c000000004BA3CC000000000000000241
+t1269025792
+s577
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/Comic.h
+c000000004B9D521F000000000000015D
+t1268601375
+s349
+i<CoreData/CoreData.h>
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.h
+c000000004BAAB300000000000000049D
+t1269478144
+s1181
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"Comic.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m
+c000000004BAAB34D0000000000001E58
+t1269478221
+s7768
+i"DetailViewController.h"
+i"RootViewController.h"
+i"addComic.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.h
+c000000004BAAB33B0000000000000463
+t1269478203
+s1123
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"WebComiXAppDelegate.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m
+c000000004BAAB33500000000000038C7
+t1269478197
+s14535
+i"RootViewController.h"
+i"DetailViewController.h"
+i"xmlReader.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.h
+c000000004BAAB31F00000000000004D3
+t1269478175
+s1235
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"addComic.h"
+i"comicPlaceholder.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m
+c000000004BAAB31800000000000014F2
+t1269478168
+s5362
+i"WebComiXAppDelegate.h"
+i"RootViewController.h"
+i"DetailViewController.h"
+i"comicPlaceholder.h"
+i"xmlReader.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.h
+c000000004BAAB2F30000000000000487
+t1269478131
+s1159
+i<UIKit/UIKit.h>
+i"Comic.h"
+i"DetailViewController.h"
+i"WebComiXAppDelegate.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m
+c000000004BAAB2ED00000000000010F7
+t1269478125
+s4343
+i"addComic.h"
+i"Comic.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.xib
+c000000004BA2C0F3000000000000820A
+t1268957427
+s33290
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.h
+c000000004BAAB2D800000000000001DE
+t1269478104
+s478
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m
+c000000004BAAB2DE0000000000000150
+t1269478110
+s336
+i"comicPlaceholder.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.h
+c000000004BAAB2E7000000000000018A
+t1269478119
+s394
+i"Comic.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m
+c000000004BAAB2D1000000000000072B
+t1269478097
+s1835
+i"xmlReader.h"
+i"RootViewController.h"
+i"comicPlaceholder.h"
+i"WebComiXAppDelegate.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/DetailView.xib
+c000000004BA3ED9D0000000000008A6E
+t1269034397
+s35438
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Entitlements.plist
+c000000004BA71EB000000000000000E1
+t1269243568
+s225
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Icon.png
+c000000004BA98FE20000000000001136
+t1269403618
+s4406
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Icon2.png
+c000000004BA3F503000000000000B6DA
+t1269036291
+s46810
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Icon5.png
+c000000004BA42F8F0000000000007CC9
+t1269051279
+s31945
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/MainWindow.xib
+c000000004B9EA2480000000000008874
+t1268687432
+s34932
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld
+c000000004B9FFB1A0000000000000108
+t1268775706
+s264
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.h
+c000000004B9DCC37000000000000015D
+t1268632631
+s349
+i<CoreData/CoreData.h>
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m
+c000000004B9DCC3700000000000000DC
+t1268632631
+s220
+i"Comic.h"
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch
+c000000004B9D48480000000000000142
+t1268598856
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app
+t1269491247
+s534
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM
+t1269491247
+s264
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/ArrowBack.png
+t1269403668
+s580
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/ArrowForward.png
+t1269403668
+s577
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/DetailView.nib
+t1269403669
+s2329
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist
+t1269403669
+s62
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon.png
+t1269403668
+s4406
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon2.png
+t1269403668
+s46810
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Icon5.png
+t1269403668
+s31945
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist
+t1269472727
+s835
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/MainWindow.nib
+t1269403669
+s1942
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/PkgInfo
+t1269472727
+s8
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+t1269491247
+s62908
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd
+t1269403670
+s264
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/addComic.nib
+t1269403669
+s3247
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/star.png
+t1269403668
+s2277
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/titlepage.png
+t1269403668
+s51543
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o
+t1269491246
+s5216
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o
+t1269491246
+s67464
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o
+t1269491246
+s80572
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiX.LinkFileList
+c000000004BAAE62B00000000000004C3
+t1269491243
+s1219
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o
+t1269491245
+s62016
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o
+t1269491246
+s57900
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o
+t1269491246
+s10204
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o
+t1269491245
+s5948
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o
+t1269491246
+s50672
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m
+c000000004B9D4848000000000000015B
+t1268598856
+s347
+i<UIKit/UIKit.h>
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/star.png
+c000000004BA2664D00000000000008E5
+t1268934221
+s2277
+
+N/Volumes/chris-1/Documents/X-Code Projects/WebComiX/titlepage.png
+c000000004BA7CC82000000000000C957
+t1269288066
+s51543
+
+N/var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch.gch
+t1269491244
+s13510544
+
+N/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dcxyqpbbnbctfchkuftbmkhyxzcg/WebComiX_Prefix.pch.gch
+t1269403670
+s13510544
+
+N/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch.gch
+t1288670552
+s13526928
+
+N/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch.pth
+t1269472972
+s1823660
+
+N/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-fldftkekdujezocbusmkjmfflync/WebComiX_Prefix.pch.gch
+t1282522268
+s13526928
+
+NWebComiX-Info.plist
+c000000004BAA9C8D0000000000000498
+t1269472397
+s1176
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m"
+s291165973.429655
+e291165973.466491
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m
+lSLF07#2@86"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m291165973#291165973#0(0"0(0#0#78"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m4300911832#2181"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/DetailViewController.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m"
+s291165772.545158
+e291165772.646598
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m
+o/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m:206:19: warning: Potential leak of an object allocated on line 206 and stored into 'deletedComics'
+o                 deletedComics = [ NSMutableArray alloc];
+o                                 ^
+o1 diagnostic generated.
+lSLF07#2@84"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291165772#291165772#0(293"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m:206:19: warning: Potential leak of an object allocated on line 206 and stored into 'deletedComics'                 deletedComics = [ NSMutableArray alloc];                                 ^1 diagnostic generated.1(0@81"Potential leak of an object allocated on line 206 and stored into 'deletedComics'291165772#18446744073709551615#0#8(17@0"291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#0"0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#1(3@6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#196#2#196#2#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#200#2#200#2#17@0"291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#0"0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#1(3@6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#200#2#200#2#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#3#206#3#17@0"291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#0"0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#1(3@6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#3#206#3#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#19#206#41#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#19#0#0#0"1(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#19#206#41#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#0"0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#1(3@6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#206#19#206#41#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#208#2#208#2#17@0"291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#0"0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#0#0#0#0#1(3@6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#208#2#208#2#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#209#7#21@92"Object returned to caller as an owning reference (single retain count transferred to caller)291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#0#0#0"2(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#209#21#6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#9#209#21#92"Object returned to caller as an owning reference (single retain count transferred to caller)21@291"Object allocated on line 206 and stored into 'deletedComics' is returned from a method whose name ('getDeletedComics') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)291165772#18446744073709551615#0#0(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#0#0#0"1(6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#209#7#291"Object allocated on line 206 and stored into 'deletedComics' is returned from a method whose name ('getDeletedComics') does not contain 'copy' or otherwise starts with 'new' or 'alloc'.  This violates the naming convention rules given in the Memory Management Guide for Cocoa (object leaked)6@76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291164311#209#2#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m4300911832#2177"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/RootViewController.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m"
+s291165772.544410
+e291165772.633372
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m
+o/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:160:7:{160:17-160:34}: warning: Value stored to 'success' during its initialization is never read
+o         BOOL success = [xmlParser parse];
+o              ^         ~~~~~~~~~~~~~~~~~
+o/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:154:23: warning: Potential leak of an object allocated on line 154
+o         xmlReader *reader = [[xmlReader alloc] initxmlReader];
+o                              ^
+o2 diagnostics generated.
+lSLF07#2@85"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291165772#291165772#0(527"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:160:7:{160:17-160:34}: warning: Value stored to 'success' during its initialization is never read         BOOL success = [xmlParser parse];              ^         ~~~~~~~~~~~~~~~~~/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:154:23: warning: Potential leak of an object allocated on line 154         xmlReader *reader = [[xmlReader alloc] initxmlReader];                              ^2 diagnostics generated.2(0@65"Value stored to 'success' during its initialization is never read291165772#18446744073709551615#0#1(21@65"Value stored to 'success' during its initialization is never read291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#160#7#0#0#0"1(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#160#17#160#33#65"Value stored to 'success' during its initialization is never read6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#160#7#0#0#10"Dead store0(19"Dead initialization0@49"Potential leak of an object allocated on line 154291165772#18446744073709551615#0#7(17@0"291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#0"0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#1(3@6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#149#2#149#2#6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#2#154#2#17@0"291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#0"0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#1(3@6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#2#154#2#6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#23#154#39#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#23#0#0#0"1(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#23#154#39#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#0"0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#1(3@6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#154#23#154#39#6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#169#2#169#2#17@0"291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#0"0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#1(3@6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#169#2#169#2#6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#176#2#176#2#17@0"291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#0"0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#0#0#0#0#1(3@6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#176#2#176#2#6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#178#1#178#1#21@114"Object allocated on line 154 is no longer referenced after this point and has a retain count of +1 (object leaked)291165772#18446744073709551615#0#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#178#1#0#0#0"1(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#178#1#178#1#114"Object allocated on line 154 is no longer referenced after this point and has a retain count of +1 (object leaked)6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291164777#178#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m4300911832#2179"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/WebComiXAppDelegate.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m"
+s291165772.546831
+e291165772.638385
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m
+lSLF07#2@74"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m291165772#291165772#0(0"0(0#0#66"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m4300911832#2157"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/addComic.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m"
+s291165772.549188
+e291165772.631138
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m
+lSLF07#2@82"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m291165772#291165772#0(0"0(0#0#74"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m4300911832#2173"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/comicPlaceholder.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m"
+s291165772.548303
+e291165772.630626
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m
+lSLF07#2@75"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m291165772#291165772#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m4300911832#2159"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/xmlReader.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m"
+s291165772.547538
+e291165772.624529
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m
+lSLF07#2@85"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m291165772#291165772#0(0"0(0#0#77"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m4300911832#2165"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/Comic.plist"0#
+
+CAnalyze "/Users/chris/Documents/X-Code Projects/WebComiX/main.m"
+s291165772.543463
+e291165772.626217
+r1
+xAnalyze
+x/Users/chris/Documents/X-Code Projects/WebComiX/main.m
+lSLF07#2@62"Analyze /Users/chris/Documents/X-Code Projects/WebComiX/main.m291165772#291165772#0(0"0(0#0#54"/Users/chris/Documents/X-Code Projects/WebComiX/main.m4300911832#2141"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch --analyze "/Users/chris/Documents/X-Code Projects/WebComiX/main.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310363337#310363338#0(0"0(0#1#0"28429346312028276#0"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.753830
+e310363353.962110
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m310363352#310363353#0(0"0(0#0#77"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m8618473184#2254"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.782526
+e291184045.904063
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m291184045#291184045#0(0"0(0#0#81"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m4300911832#2200"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld/Comic.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/Comic.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.751584
+e310363354.006732
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m310363352#310363354#0(0"0(0#0#78"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m8618909888#2270"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.394031
+e291184045.782419
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m291184045#291184045#0(0"0(0#0#82"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m8386658438904696832#2216"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/DetailViewController.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/DetailViewController.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.747297
+e310363354.005810
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m310363352#310363354#0(0"0(0#0#76"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m8617958016#2266"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.130391
+e291184045.622191
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m291184045#291184045#0(0"0(0#0#80"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m4300911832#2212"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/RootViewController.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.745812
+e310363354.006269
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m: In function '-[WebComiXAppDelegate loadXML]':
+o/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:143: warning: unused variable 'success'
+lSLF07#2@85"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m310363352#310363354#0(243"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m: In function '-[WebComiXAppDelegate loadXML]':/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:143: warning: unused variable 'success'1(22@25"Unused variable 'success'310363352#125#118#0(6@77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291170968#143#0#143#0#19"unused variable '*'0(0#0#77"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m8617903392#2268"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184044.963114
+e291184045.393927
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m: In function '-[WebComiXAppDelegate loadXML]':
+o/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:143: warning: unused variable 'success'
+lSLF07#2@89"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291184044#291184045#0(251"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m: In function '-[WebComiXAppDelegate loadXML]':/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:143: warning: unused variable 'success'1(22@25"Unused variable 'success'291184045#129#122#0(6@81"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m291170968#143#0#143#0#19"unused variable '*'0(0#0#81"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m4300911832#2214"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiXAppDelegate.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.752708
+e310363353.980753
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m310363352#310363353#0(0"0(0#0#66"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m8618632544#2246"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.622298
+e291184045.937035
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m291184045#291184045#0(0"0(0#0#70"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m4300911832#2192"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/addComic.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.756442
+e310363353.961286
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m310363352#310363353#0(0"0(0#0#74"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m8618016448#2262"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.937138
+e291184046.064509
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m291184045#291184046#0(0"0(0#0#78"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m4300911832#2208"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/comicPlaceholder.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/comicPlaceholder.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o "/Users/chris/Documents/X-Code Projects/WebComiX/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.744421
+e310363353.961799
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/chris/Documents/X-Code Projects/WebComiX/main.m310363352#310363353#0(0"0(0#0#54"/Users/chris/Documents/X-Code Projects/WebComiX/main.m8618131360#2230"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/main.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184044.927788
+e291184045.130210
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m291184044#291184045#0(0"0(0#0#58"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m4300911832#2176"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/main.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363352.755185
+e310363354.005182
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m310363352#310363354#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m8618294720#2248"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch -c "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o"0#
+
+CCompileC build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184045.904174
+e291184046.148317
+r1
+xCompileC
+xbuild/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m291184045#291184046#0(0"0(0#0#71"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m4300911832#2194"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/xmlReader.m" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/xmlReader.o"0#
+
+CCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib"
+s304215067.096312
+e304215067.601141
+r1
+xCompileXIB
+x/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@31"CompileXIB Classes/addComic.xib304215067#304215067#0(588"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#68"/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib8608683136#615"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/addComic.nib" "/Users/chris/Documents/X-Code Projects/WebComiX/Classes/addComic.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib"
+s306652244.211507
+e306652244.897605
+r1
+xCompileXIB
+x/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib
+lSLF07#2@25"CompileXIB DetailView.xib306652244#306652244#0(0"0(0#0#62"/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib28147974416826412#611"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/DetailView.nib" "/Users/chris/Documents/X-Code Projects/WebComiX/DetailView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib"
+s304215067.092810
+e304215067.493755
+r1
+xCompileXIB
+x/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib304215067#304215067#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib28147974416826412#611"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/MainWindow.nib" "/Users/chris/Documents/X-Code Projects/WebComiX/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/Classes/addComic.xib"
+r0
+
+CCompileXIB "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/DetailView.xib"
+r0
+
+CCompileXIB "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/MainWindow.xib"
+r0
+
+CCopyPlistFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist" Entitlements.plist
+s291096468.955927
+e291096469.271261
+r1
+xCopyPlistFile
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist291096468#291096469#0(0"0(0#0#66"/Users/chris/Documents/X-Code Projects/WebComiX/Entitlements.plist4300911832#423"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCopyPlistFile "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Entitlements.plist" Entitlements.plist
+r0
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/ArrowBack.png ArrowBack.png
+s310363338.926067
+e310363339.055156
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/ArrowBack.png
+xArrowBack.png
+lSLF07#2@18"Copy ArrowBack.png310363338#310363339#0(0"0(0#0#61"/Users/chris/Documents/X-Code Projects/WebComiX/ArrowBack.png8617963904#533"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/ArrowBack.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/ArrowForward.png ArrowForward.png
+s310363338.926802
+e310363339.054807
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/ArrowForward.png
+xArrowForward.png
+lSLF07#2@21"Copy ArrowForward.png310363338#310363339#0(0"0(0#0#64"/Users/chris/Documents/X-Code Projects/WebComiX/ArrowForward.png8617884576#536"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/ArrowForward.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon.png Icon.png
+s310363338.929166
+e310363339.066048
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png310363338#310363339#0(0"0(0#0#56"/Users/chris/Documents/X-Code Projects/WebComiX/Icon.png8617064736#528"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/Icon.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon2.png Icon2.png
+s310363338.927460
+e310363339.090576
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/Icon2.png
+xIcon2.png
+lSLF07#2@14"Copy Icon2.png310363338#310363339#0(0"0(0#0#57"/Users/chris/Documents/X-Code Projects/WebComiX/Icon2.png8617808160#529"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/Icon2.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/Icon5.png Icon5.png
+s310363338.928020
+e310363339.009883
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/Icon5.png
+xIcon5.png
+lSLF07#2@14"Copy Icon5.png310363338#310363339#0(0"0(0#0#57"/Users/chris/Documents/X-Code Projects/WebComiX/Icon5.png8617700832#529"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/Icon5.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/star.png star.png
+s310363338.905493
+e310363339.017611
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/star.png
+xstar.png
+lSLF07#2@13"Copy star.png310363338#310363339#0(0"0(0#0#56"/Users/chris/Documents/X-Code Projects/WebComiX/star.png8618061056#528"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/star.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CCpResource build/Distribution-iphonesimulator/WebComiX.app/titlepage.png titlepage.png
+s310363338.928621
+e310363339.090361
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/WebComiX.app/titlepage.png
+xtitlepage.png
+lSLF07#2@18"Copy titlepage.png310363338#310363339#0(0"0(0#0#61"/Users/chris/Documents/X-Code Projects/WebComiX/titlepage.png8617326720#533"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/chris/Documents/X-Code Projects/WebComiX/titlepage.png" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CDataModelVersionCompile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd" "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld"
+s291096470.295699
+e291096470.346941
+r1
+xDataModelVersionCompile
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd
+x/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld
+lSLF07#2@107"DataModelVersionCompile build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd WebComiX.xcdatamodeld291096470#291096470#0(0"0(0#0#69"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld4300911832#429"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd"0#
+
+CDataModelVersionCompile "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX.momd" "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX.xcdatamodeld"
+r0
+
+CGenerateDSYMFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM" "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX"
+s310363355.695971
+e310363355.997061
+r1
+xGenerateDSYMFile
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+lSLF07#2@126"GenerateDSYMFile build/Distribution-iphonesimulator/WebComiX.app.dSYM build/Distribution-iphonesimulator/WebComiX.app/WebComiX310363355#310363355#0(0"0(0#0#104"/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX8617604640#433"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX" -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM"0#
+
+CGenerateDSYMFile "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM" "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX"
+s291184046.893762
+e291184047.119890
+r1
+xGenerateDSYMFile
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+lSLF07#2@126"GenerateDSYMFile build/Distribution-iphonesimulator/WebComiX.app.dSYM build/Distribution-iphonesimulator/WebComiX.app/WebComiX291184046#291184047#0(0"0(0#0#108"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX4300911832#445"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX" -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app.dSYM"0#
+
+CLd "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX" normal i386
+s310363354.006857
+e310363355.695657
+r1
+xLd
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+xnormal
+xi386
+lSLF07#2@109"Link /Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX310363354#310363355#0(0"0(0#0#0"3273676477861028352#1038"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks -filelist "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiX.LinkFileList" -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX"0#
+
+CLd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX" normal i386
+s291184046.148408
+e291184046.893558
+r1
+xLd
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX
+xnormal
+xi386
+old: warning: directory '/Developer/Local/Frameworks' following -F not found
+lSLF07#2@113"Link /Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX291184046#291184046#0(76"ld: warning: directory '/Developer/Local/Frameworks' following -F not found1(22@62"Directory '/Developer/Local/Frameworks' following -F not found291184046#0#76#0(6@0"291184046#0#0#0#0#0"0(0#0#0"4300911832#1020"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks -filelist "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/Objects-normal/i386/WebComiX.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/WebComiX"0#
+
+CProcessInfoPlistFile "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist" WebComiX-Info.plist
+s310363338.466435
+e310363338.905023
+r1
+xProcessInfoPlistFile
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist
+xWebComiX-Info.plist
+lSLF07#2@27"Process WebComiX-Info.plist310363338#310363338#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX-Info.plist8028075858275693568#529"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WebComiX-Info.plist -genpkginfo "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app/Info.plist" WebComiX-Info.plist
+r0
+
+CProcessPCH /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch.gch WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291184043.451986
+e291184044.918382
+r1
+xProcessPCH
+x/var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch.gch
+xWebComiX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WebComiX_Prefix.pch291184043#291184044#0(0"0(0#0#71"/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch7302357493691540480#2045"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch" -o /var/folders/L2/L2f-+BTKEHWntWfVh7-1uU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-cmtxmftdhnywgvafqmijpjwajbye/WebComiX_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dcxyqpbbnbctfchkuftbmkhyxzcg/WebComiX_Prefix.pch.gch WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291096469.645292
+e291096470.295613
+r1
+xProcessPCH
+x/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dcxyqpbbnbctfchkuftbmkhyxzcg/WebComiX_Prefix.pch.gch
+xWebComiX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WebComiX_Prefix.pch291096469#291096470#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch4300911832#2005"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch" -o /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dcxyqpbbnbctfchkuftbmkhyxzcg/WebComiX_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch.gch WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310363339.090925
+e310363352.743645
+r1
+xProcessPCH
+x/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch.gch
+xWebComiX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WebComiX_Prefix.pch310363339#310363352#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch8616367040#2103"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch" -o /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-dxsxqrlcmoufuxetgsregywwxzni/WebComiX_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch.pth WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s291165772.283977
+e291165772.542598
+r1
+xProcessPCH
+x/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch.pth
+xWebComiX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile WebComiX_Prefix.pch291165772#291165772#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch4300911832#1996"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch" -o /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-ecgfkojuijtupxejadeadklkmtzs/WebComiX_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-fldftkekdujezocbusmkjmfflync/WebComiX_Prefix.pch.gch WebComiX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304215067.837556
+e304215068.401018
+r1
+xProcessPCH
+x/var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-fldftkekdujezocbusmkjmfflync/WebComiX_Prefix.pch.gch
+xWebComiX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile WebComiX_Prefix.pch304215067#304215068#0(0"0(0#0#67"/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch8608361792#2049"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-generated-files.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-own-target-headers.hmap" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-all-target-headers.hmap" -iquote "/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/WebComiX-project-headers.hmap" "-F/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator" -F/Developer/Local/Frameworks "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/include" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources/i386" "-I/Users/chris/Documents/X-Code Projects/WebComiX/build/WebComiX.build/Distribution-iphonesimulator/WebComix.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/chris/Documents/X-Code Projects/WebComiX/WebComiX_Prefix.pch" -o /var/folders/R0/R0ZZP2l-Ek8d2SV50yUxs++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebComiX_Prefix-fldftkekdujezocbusmkjmfflync/WebComiX_Prefix.pch.gch0#
+
+CTouch "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"
+s310363355.997168
+e310363356.122693
+r1
+xTouch
+x/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app
+lSLF07#2@101"Touch /Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app310363355#310363356#0(0"0(0#0#0"8615473312#308"    cd "/Users/chris/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/chris/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+
+CTouch "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"
+s291184047.119991
+e291184047.144096
+r1
+xTouch
+x/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app
+lSLF07#2@105"Touch /Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app291184047#291184047#0(0"0(0#0#0"4300911832#316"    cd "/Volumes/chris-1/Documents/X-Code Projects/WebComiX"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/chris-1/Documents/X-Code Projects/WebComiX/build/Distribution-iphonesimulator/WebComiX.app"0#
+

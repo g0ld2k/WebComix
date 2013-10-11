@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* WebComiXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* WebComiXAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
+		2804203C108E9BAB000629CD /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* DetailView.xib */; };
+		280420C1108EA07E000629CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280420C0108EA07E000629CD /* CoreData.framework */; };
+		2819300E112F7FA900ECF9B4 /* WebComiX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819300D112F7FA900ECF9B4 /* WebComiX.xcdatamodeld */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		8318F2BC115403800089ECC7 /* ArrowBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8318F2BA115403800089ECC7 /* ArrowBack.png */; };
+		8318F2BD115403800089ECC7 /* ArrowForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 8318F2BB115403800089ECC7 /* ArrowForward.png */; };
+		8361E0D21158043300580E7A /* titlepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8361E0D11158043300580E7A /* titlepage.png */; };
+		8375AD54152E5AC7007E6084 /* star (small).png in Resources */ = {isa = PBXBuildFile; fileRef = 8375AD53152E5AC7007E6084 /* star (small).png */; };
+		8375AE33152E68F3007E6084 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375AE32152E68F3007E6084 /* SystemConfiguration.framework */; };
+		8375AE35152E68FA007E6084 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375AE34152E68FA007E6084 /* Security.framework */; };
+		8375AE37152E6902007E6084 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375AE36152E6902007E6084 /* MessageUI.framework */; };
+		837F2EB9114E03B700FB59FD /* Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = 837F2EB8114E03B700FB59FD /* Comic.m */; };
+		838D5E1911542CFC0021DA24 /* Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 838D5E1811542CFC0021DA24 /* Icon2.png */; };
+		838FB341115755E600344D58 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 838FB340115755E600344D58 /* Entitlements.plist */; };
+		83A491AC11529DED008CC1E5 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A491AB11529DED008CC1E5 /* star.png */; };
+		83A5095B114D85EA009A0CD4 /* addComic.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A50959114D85EA009A0CD4 /* addComic.m */; };
+		83A5095C114D85EA009A0CD4 /* addComic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A5095A114D85EA009A0CD4 /* addComic.xib */; };
+		83AD74BC11546719002C6335 /* Icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD74BB11546719002C6335 /* Icon5.png */; };
+		83B4727C1159C7760005CEB4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B4727B1159C7760005CEB4 /* Icon.png */; };
+		83B8E3E81151618500946C68 /* xmlReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B8E3E71151618500946C68 /* xmlReader.m */; };
+		83B8E50011518BBA00946C68 /* comicPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B8E4FF11518BBA00946C68 /* comicPlaceholder.m */; };
+		83F573861534FBCE00E4646A /* ActionMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F573841534FBCE00E4646A /* ActionMenuViewController.m */; };
+		83F573871534FBCE00E4646A /* ActionMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F573851534FBCE00E4646A /* ActionMenuViewController.xib */; };
+		83F5738D1535024500E4646A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F5738C1535024500E4646A /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		833EAEE21152D310007F406E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = RegexKit.framework;
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833EAEE91152D34D007F406E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* WebComiXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebComiXAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* WebComiXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebComiXAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* WebComix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebComix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28042009108E984D000629CD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2804200A108E984D000629CD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2804203B108E9BAB000629CD /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		280420B3108E9F58000629CD /* WebComiX.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = WebComiX.xcdatamodel; sourceTree = "<group>"; };
+		280420C0108EA07E000629CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* WebComiX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebComiX_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8318F2BA115403800089ECC7 /* ArrowBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowBack.png; sourceTree = "<group>"; };
+		8318F2BB115403800089ECC7 /* ArrowForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowForward.png; sourceTree = "<group>"; };
+		8361E0D11158043300580E7A /* titlepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlepage.png; sourceTree = "<group>"; };
+		8375AD53152E5AC7007E6084 /* star (small).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star (small).png"; sourceTree = "<group>"; };
+		8375AE32152E68F3007E6084 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8375AE34152E68FA007E6084 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8375AE36152E6902007E6084 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		837F2EB7114E03B700FB59FD /* Comic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comic.h; sourceTree = "<group>"; };
+		837F2EB8114E03B700FB59FD /* Comic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comic.m; sourceTree = "<group>"; };
+		838D5E1811542CFC0021DA24 /* Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon2.png; sourceTree = "<group>"; };
+		838FB340115755E600344D58 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		83A491AB11529DED008CC1E5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		83A50958114D85EA009A0CD4 /* addComic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addComic.h; sourceTree = "<group>"; };
+		83A50959114D85EA009A0CD4 /* addComic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addComic.m; sourceTree = "<group>"; };
+		83A5095A114D85EA009A0CD4 /* addComic.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = addComic.xib; path = Classes/addComic.xib; sourceTree = "<group>"; };
+		83AD74BB11546719002C6335 /* Icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon5.png; sourceTree = "<group>"; };
+		83B4727B1159C7760005CEB4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		83B8E3E61151618500946C68 /* xmlReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlReader.h; sourceTree = "<group>"; };
+		83B8E3E71151618500946C68 /* xmlReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlReader.m; sourceTree = "<group>"; };
+		83B8E4FE11518BBA00946C68 /* comicPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comicPlaceholder.h; sourceTree = "<group>"; };
+		83B8E4FF11518BBA00946C68 /* comicPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comicPlaceholder.m; sourceTree = "<group>"; };
+		83F573831534FBCE00E4646A /* ActionMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionMenuViewController.h; path = ../ActionMenuViewController.h; sourceTree = "<group>"; };
+		83F573841534FBCE00E4646A /* ActionMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionMenuViewController.m; path = ../ActionMenuViewController.m; sourceTree = "<group>"; };
+		83F573851534FBCE00E4646A /* ActionMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionMenuViewController.xib; sourceTree = "<group>"; };
+		83F5738C1535024500E4646A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* WebComiX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WebComiX-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F5738D1535024500E4646A /* Twitter.framework in Frameworks */,
+				8375AE37152E6902007E6084 /* MessageUI.framework in Frameworks */,
+				8375AE35152E68FA007E6084 /* Security.framework in Frameworks */,
+				8375AE33152E68F3007E6084 /* SystemConfiguration.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				280420C1108EA07E000629CD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* WebComiXAppDelegate.h */,
+				1D3623250D0F684500981E51 /* WebComiXAppDelegate.m */,
+				28042007108E984D000629CD /* RootViewController.h */,
+				28042008108E984D000629CD /* RootViewController.m */,
+				28042009108E984D000629CD /* DetailViewController.h */,
+				2804200A108E984D000629CD /* DetailViewController.m */,
+				83A50958114D85EA009A0CD4 /* addComic.h */,
+				83A50959114D85EA009A0CD4 /* addComic.m */,
+				83B8E3E61151618500946C68 /* xmlReader.h */,
+				83B8E3E71151618500946C68 /* xmlReader.m */,
+				83B8E4FE11518BBA00946C68 /* comicPlaceholder.h */,
+				83B8E4FF11518BBA00946C68 /* comicPlaceholder.m */,
+				83F573831534FBCE00E4646A /* ActionMenuViewController.h */,
+				83F573841534FBCE00E4646A /* ActionMenuViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WebComix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				83F5738C1535024500E4646A /* Twitter.framework */,
+				8375AE36152E6902007E6084 /* MessageUI.framework */,
+				8375AE34152E68FA007E6084 /* Security.framework */,
+				8375AE32152E68F3007E6084 /* SystemConfiguration.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				838FB340115755E600344D58 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* WebComiX_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83F573851534FBCE00E4646A /* ActionMenuViewController.xib */,
+				8375AD53152E5AC7007E6084 /* star (small).png */,
+				83B4727B1159C7760005CEB4 /* Icon.png */,
+				8361E0D11158043300580E7A /* titlepage.png */,
+				83AD74BB11546719002C6335 /* Icon5.png */,
+				838D5E1811542CFC0021DA24 /* Icon2.png */,
+				8318F2BA115403800089ECC7 /* ArrowBack.png */,
+				8318F2BB115403800089ECC7 /* ArrowForward.png */,
+				83A491AB11529DED008CC1E5 /* star.png */,
+				2819300D112F7FA900ECF9B4 /* WebComiX.xcdatamodeld */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2804203B108E9BAB000629CD /* DetailView.xib */,
+				8D1107310486CEB800E47090 /* WebComiX-Info.plist */,
+				83A5095A114D85EA009A0CD4 /* addComic.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				280420C0108EA07E000629CD /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WebComix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WebComix" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				833EAEE21152D310007F406E /* CopyFiles */,
+				833EAEE91152D34D007F406E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebComix;
+			productName = WebComiX;
+			productReference = 1D6058910D05DD3D006BFB54 /* WebComix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = RabidMonkeyWare;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WebComiX_1.5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WebComix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
+				83A5095C114D85EA009A0CD4 /* addComic.xib in Resources */,
+				83A491AC11529DED008CC1E5 /* star.png in Resources */,
+				8318F2BC115403800089ECC7 /* ArrowBack.png in Resources */,
+				8318F2BD115403800089ECC7 /* ArrowForward.png in Resources */,
+				838D5E1911542CFC0021DA24 /* Icon2.png in Resources */,
+				83AD74BC11546719002C6335 /* Icon5.png in Resources */,
+				838FB341115755E600344D58 /* Entitlements.plist in Resources */,
+				8361E0D21158043300580E7A /* titlepage.png in Resources */,
+				83B4727C1159C7760005CEB4 /* Icon.png in Resources */,
+				8375AD54152E5AC7007E6084 /* star (small).png in Resources */,
+				83F573871534FBCE00E4646A /* ActionMenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* WebComiXAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* RootViewController.m in Sources */,
+				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
+				2819300E112F7FA900ECF9B4 /* WebComiX.xcdatamodeld in Sources */,
+				83A5095B114D85EA009A0CD4 /* addComic.m in Sources */,
+				837F2EB9114E03B700FB59FD /* Comic.m in Sources */,
+				83B8E3E81151618500946C68 /* xmlReader.m in Sources */,
+				83B8E50011518BBA00946C68 /* comicPlaceholder.m in Sources */,
+				83F573861534FBCE00E4646A /* ActionMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WebComiX_Prefix.pch;
+				INFOPLIST_FILE = "WebComiX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = WebComix;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WebComiX_Prefix.pch;
+				INFOPLIST_FILE = "WebComiX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = WebComiX;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838FB33C1157551200344D58 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+		838FB33D1157551200344D58 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WebComiX_Prefix.pch;
+				INFOPLIST_FILE = "WebComiX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = WebComiX;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = WebComix;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WebComix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				838FB33D1157551200344D58 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WebComiX_1.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				838FB33C1157551200344D58 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819300D112F7FA900ECF9B4 /* WebComiX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				837F2EB7114E03B700FB59FD /* Comic.h */,
+				837F2EB8114E03B700FB59FD /* Comic.m */,
+				280420B3108E9F58000629CD /* WebComiX.xcdatamodel */,
+			);
+			currentVersion = 280420B3108E9F58000629CD /* WebComiX.xcdatamodel */;
+			path = WebComiX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

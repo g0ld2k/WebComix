@@ -1,0 +1,2 @@
+/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m: In function '-[WebComiXAppDelegate loadXML]':
+/Users/chris/Documents/X-Code Projects/WebComiX/Classes/WebComiXAppDelegate.m:143: warning: unused variable 'success'
